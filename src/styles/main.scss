@@ -1,0 +1,10 @@
+@import './imports';
+
+
+body {
+  font-family: Lato,Arial,sans-serif;
+  font-size: $base-font-size;
+  margin: 0;
+  padding: 0;
+  color: theme(copy);
+}

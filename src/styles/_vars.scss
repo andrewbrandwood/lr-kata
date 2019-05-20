@@ -1,0 +1,34 @@
+$base-font-size: 1.6rem;
+
+$page-edge-space: 5%;
+$container-padding-v: 20px;
+
+$border-radius: 4px;
+
+$header-padding: $container-padding-v $page-edge-space;
+
+$colors: (
+  purple: #411485,
+  yellow: #FCC82B,
+  skyblue: #399CDA,
+  red: #E6175C,
+  green: #2DB22A,
+  white: #FFFFFF,
+  black: #000000,
+  darkgrey: #e0e0e0,
+  lightgrey: #f9f8f6,
+  charcoal: #333333,
+);
+
+$theme: (
+  primary: color(purple),
+  secondary: color(yellow),
+  tertiary: color(skyblue),
+  positive: color(green),
+  negative: color(red),
+  white: color(white),
+  black: color(black),
+  light-shade: color(lightgrey),
+  dark-shade: color(darkgrey),
+  copy: color(charcoal)
+)
