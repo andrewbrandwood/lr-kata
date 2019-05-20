@@ -8,3 +8,12 @@ body {
   padding: 0;
   color: theme(copy);
 }
+
+.star-rating {
+  font-size: 1.2rem;
+  & svg {
+    width: 15px;
+    height: 15px;
+    fill: theme(secondary);
+  }
+}

@@ -1,0 +1,42 @@
+@import '../../styles/imports';
+
+.hotel-list__item {
+  background-color: theme(white);
+  padding: 20px;
+  margin: 0 0 20px;
+  border-radius: $border-radius;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.hotel-list__item-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hotel-list__item-title {
+  font-size: 1.6rem;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.hotel-list__item-facilities {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hotel-list__item-facilities-title {
+  font-size: 1.2rem;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.hotel-list__item-facilities-item {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 1rem;
+  background-color: theme(dark-shade);
+  border-radius: $border-radius;
+  margin-right: 10px;
+}
